@@ -4,7 +4,7 @@
 - DependencyInjection
 - DependencyInjectionRealLife
 - ThirdPartyApi.
-- Sql Bulk Insert / Update 
+- sqlbulkinsertupdate
 
 ## Get Started with Any of the code base, follow this pattern:
 `git clone --single-branch --branch <branch_name> <remote-repo>`
