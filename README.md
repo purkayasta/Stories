@@ -2,10 +2,10 @@
 ## Get Started with Any of the code base, follow this pattern:
 `git clone --single-branch --branch <branch_name> <remote-repo>`
 
-# Asynchronus Programming With C# 
+# Asynchronous Programming With C# 
 1. [Task Based Programming](https://pritompurkayasta.me/task-based-programming-model)
 2. [Thread Pool](https://pritompurkayasta.me/thread-pool)
-3. [Asynchronus Programming](https://pritompurkayasta.me/asynchronous-programming-101) (*Branch* => `async_101`)
+3. [Asynchronous Programming](https://pritompurkayasta.me/asynchronous-programming-101) (*Branch* => `async_101`)
 
 ## Sql Bulk Insertion / Update (*Branch* => `bulkinsertupdate`)
 1. [Bulk Insert](https://pritompurkayasta.me/sql-bulk-insert-c-sharp)
