@@ -1,28 +1,27 @@
 # Developer Stories 🧛‍♂️🥂😎💥
-
-## Branch Names:
-- DependencyInjection
-- DependencyInjectionRealLife
-- ThirdPartyApi.
-- sqlbulkinsertupdate
-
 ## Get Started with Any of the code base, follow this pattern:
 `git clone --single-branch --branch <branch_name> <remote-repo>`
 
-## Sql Bulk Insertion / Update 😎
-1. [Bulk Insert](https://pritom.hashnode.dev/sql-bulk-insert-c-sharp)
-2. [Bulk Update](https://pritom.hashnode.dev/sql-bulk-update-c-sharp)
+# Asynchronus Programming With C# 
+1. [Task Based Programming](https://pritompurkayasta.me/task-based-programming-model)
+2. [Thread Pool](https://pritompurkayasta.me/thread-pool)
+3. [Asynchronus Programming](https://pritompurkayasta.me/asynchronous-programming-101) (*Branch* => `async_101`)
 
-## Intro To Dependency Injection: ©#️⃣💗
-Types of DI: 
-1. Constructor Injection. (http://tiny.cc/iw48lz)
-2. Property Injection. (http://tiny.cc/9y48lz)
-3. Method Injection. (http://tiny.cc/5z48lz)
+## Sql Bulk Insertion / Update (*Branch* => `bulkinsertupdate`)
+1. [Bulk Insert](https://pritompurkayasta.me/sql-bulk-insert-c-sharp)
+2. [Bulk Update](https://pritompurkayasta.me/sql-bulk-update-c-sharp)
 
-## Dependency Injection Using Unity 🎫
-This is an article on How to implement dependency injection 
-using unity in C#. (http://tiny.cc/vt48lz)
+## Intro To Dependency Injection:
 
-## Consume Third Party Api 101 🎈🎃🎨
-How to Consume Any Web Api Response in C#
-(http://tiny.cc/cv48lz)
+> Types of DI:  (*Branch* => `DependencyInjection`)
+> 1. [Constructor Injection](https://pritompurkayasta.medium.com/introduction-to-dependency-injection-part-1-217caafd15ad)
+> 2. [Property Injection](https://pritompurkayasta.medium.com/introduction-to-dependency-injection-part-2-153bbcedaf52)
+> 3. [Method Injection](https://pritompurkayasta.medium.com/introduction-to-dependency-injection-part-3-78889d3c8ed7)
+
+
+>(*Branch* => `DependencyInjectionRealLife`)
+>1. This is an [article on How to implement dependency injection 
+using unity in C#](https://pritompurkayasta.medium.com/dependecny-injection-in-real-life-c-project-using-unity-da1742f3bbab)
+
+## Consume Third Party Api 101 🎈🎃🎨 (*Branch* => `ThirdPartyApi`)
+How to Consume Any [Api Response in C#](https://pritompurkayasta.me/api-to-json-c-sharp)
