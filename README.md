@@ -4,6 +4,8 @@ Get Started with Any of the code base, follow this pattern:
 
 `git clone --single-branch --branch <branch_name> <remote-repo>`
 
+### Multi Threading with C#
+1. [Concurrency Vs Parallelism]() (*Branch* => `paraconcurrent`)
 
 ### Asynchronous Programming With C# 
 1. [Task Based Programming](https://pritompurkayasta.me/task-based-programming-model)
