@@ -4,6 +4,8 @@ Get Started with Any of the code base, follow this pattern:
 
 `git clone --single-branch --branch <branch_name> <remote-repo>`
 
+### [Exceptions in .NET]() (exceptions)
+
 ### Multi Threading with C#
 1. [Concurrency Vs Parallelism](https://pritompurkayasta.me/concurrency-vs-parallelism) (*Branch* => `paraconcurrent`)
 
