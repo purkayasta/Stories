@@ -4,6 +4,9 @@ Get Started with Any of the code base, follow this pattern:
 
 `git clone --single-branch --branch <branch_name> <remote-repo>`
 
+### Database Sharding
+1. [Dynamic Sharding]() (*Branch* => `dynamic-sharding`)
+
 ### Exceptions in .NET 
 1. [What, Why, How Exceptions in .NET](https://pritompurkayasta.me/exceptions-in-net) (*Branch* => `exceptions`)
 
