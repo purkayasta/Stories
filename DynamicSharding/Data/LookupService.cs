@@ -2,10 +2,10 @@
 
 public class LookupService : ILookupService
 {
-    private readonly ShardingOptions _options;
+    private readonly TenantOptions _options;
     private string _tenantId;
 
-    public LookupService(ShardingOptions options)
+    public LookupService(TenantOptions options)
     {
         _options = options;
     }
@@ -15,7 +15,7 @@ public class LookupService : ILookupService
         if (string.IsNullOrEmpty(_tenantId)) return null;
         if (_options == null) return null;
 
-        Tenant appropiateTenant = _options.ShardingConfigurations
+        Tenant appropiateTenant = _options.TenantConfigurations
             .FirstOrDefault(x => x.TenantIds.Any(x => x.Equals(_tenantId)));
         return appropiateTenant;
     }

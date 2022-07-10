@@ -18,11 +18,12 @@ public class NormalDbContext : DbContext
         Tenant tenant = _lookupService.GetTenant();
         if (tenant == null || string.IsNullOrEmpty(tenant.DbConnectionString)) return;
 
-        optionsBuilder.UseSqlServer(tenant.DbConnectionString);
+        /*
+        We can use what ever provider ef core support, just pass the appropiate connection string
+        like if we want to use sql server here then we will replace the line with this -> optionsBuilder.UseSqlServer(tenant.DbConnectionString);
+        */
+        optionsBuilder.UseInMemoryDatabase(tenant.DbConnectionString);
     }
 
     public DbSet<User> Users { get; set; }
 }
-
-
-public record User(int Id, string TenantId, string FirstName, bool IsActive, DateTime CreatedOn);

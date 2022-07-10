@@ -1,8 +1,8 @@
 ﻿namespace DynamicSharding;
 
-public static class ShardingInjection
+public static class TenantExtensions
 {
-    public static void AddSharding(this IServiceCollection serviceDescriptors, ShardingOptions options)
+    public static void AddMultiTenant(this IServiceCollection serviceDescriptors, TenantOptions options)
     {
         if (options == null) return;
 
