@@ -4,8 +4,8 @@ Get Started with Any of the code base, follow this pattern:
 
 `git clone --single-branch --branch <branch_name> <remote-repo>`
 
-### DbSetMock in .NET
-
+### DbSetMock in .NET (*Branch* => `dbset-mock`)
+[DbContext, DbSet mocking - C# made easy](https://pritom.hashnode.dev/dbset-mocking-csharp)
 
 ### Exceptions in .NET 
 1. [What, Why, How Exceptions in .NET](https://pritompurkayasta.me/exceptions-in-net) (*Branch* => `exceptions`)
